@@ -12,9 +12,12 @@ class App extends Component {
     render() {
         return (
             <div style={{ margin: "5%" }}>
-                <h1>Goals</h1>
+                <h1>Goal Coach</h1>
                 <AddGoal />
+                <hr />
+                <h4>Goals</h4>
                 <GoalList />
+                <hr />
                 <button
                     className="btn btn-danger"
                     onClick={() => this.signOut()}
